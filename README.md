@@ -32,7 +32,7 @@ Tecnologias utilizadas:
   * Github Pages
 
 ## Links
- - Aplicação rodando: https://jefersoncf.github.io/qrcode-system
+ - Aplicação rodando:  https://jefersoncf.github.io/form-validation-javascript/
  
  ## Autor
  * **Jeferson Ferreira**: Jefersoncf https://github.com/Jefersoncf

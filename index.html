@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation | JavaScript</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="img">
+          <img src="./img/banner.svg" alt="" />
+        </div>
+      </div>
+      <form id="form">
+        <h2 class="title">Criar Conta</h2>
+
+        <div>
+          <label for="username">Nome</label>
+          <i class="bx bxs-user i-color"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Insira seu nome"
+          />
+          <i class="bx bxs-message-square-error icon-error"></i>
+          <i class="bx bx-message-square-check icon-success"></i>
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <i class="bx bxs-envelope i-color"></i>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Insira sue E-mail"
+          />
+          <i class="bx bxs-message-square-error icon-error"></i>
+          <i class="bx bx-message-square-check icon-success"></i>
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="password">Senha</label>
+          <i class="bx bxs-lock-alt i-color"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Insira sua senha"
+          />
+          <i class="bx bxs-message-square-error icon-error"></i>
+          <i class="bx bx-message-square-check icon-success"></i>
+          <div class="error"></div>
+        </div>
+        <button type="submit" id="btn">Cadastrar</button>
+
+        <div class="social-question">
+          <p>Ja tem uma conta?</p>
+          <br />
+          <span>Entrar com</span>
+          <div class="social-media">
+            <div>
+              <a href="#">Google</a>
+              <img src="./img/google.svg" alt="Icon" />
+            </div>
+            <span>Ou</span>
+            <div>
+              <a href="#">Facebook</a>
+              <img src="./img/facebook.svg" alt="Icon" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

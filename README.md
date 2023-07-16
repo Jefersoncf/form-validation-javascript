@@ -1,4 +1,4 @@
-
+Projeto de validação de formulários em JavaScript: Esta é uma solução poderosa e eficaz para garantir a integridade, segurança e qualidade dos dados de formulários. 
  <p align="center">
   <img alt="Banner" src="/img/page.png">
  </p>
@@ -7,13 +7,10 @@
     Validação de formulário com javascript
 </h1>
 
-Projeto de validação de formulários em JavaScript: Esta é uma solução poderosa e eficaz para garantir a integridade, segurança e qualidade dos dados de formulários. 
-
+ O projeto é capaz de validar dados de entrada do formulário, proporcionando assim uma experiência do usuário mais segura e eficiente.
  <p align="center">
   <img alt="Banner 2" src="/img/pag2.png">
  </p>
-
- O projeto é capaz de validar dados de entrada do formulário, proporcionando assim uma experiência do usuário mais segura e eficiente.
 
 ## Mobile
 Página totalmente adaptada para dispositivos móveis como celulares e tables.
